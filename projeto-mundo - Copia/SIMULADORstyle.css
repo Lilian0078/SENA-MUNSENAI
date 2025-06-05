@@ -1,0 +1,222 @@
+
+body{
+    background-color: rgb(11, 12, 54);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 15px;
+    
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+.img1{
+    width: 5rem;
+    height: 5rem;
+    padding-left: 2rem;
+    margin-top: 4px;
+ 
+}
+
+a{
+    color: aliceblue;
+    text-decoration: none;
+}
+
+
+.menu{
+    background-color: rgba(255, 255, 255);
+    border-radius: 0.5rem;
+    width: 100%;
+    height: auto;
+   
+}
+.menu-content{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+ul{
+    display: flex;
+    list-style: none;
+    gap: 10rem;
+    padding-right: 8rem; 
+    align-items: center;
+
+}
+aa:hover{
+    color: rgb(90, 10, 10);
+}
+
+.sobre{
+    padding: 10px 20px;
+    border: 2px solid #010633; 
+    background-color: #010633;  
+    border-radius: 5px; 
+    cursor: pointer;
+}
+.simulador{
+    padding: 10px 20px;
+    border: 2px solid #010633; 
+    background-color: #010633;  
+    border-radius: 5px; 
+    cursor: pointer;
+}
+.situacao{
+    padding: 10px 20px;
+    border: 2px solid #010633; 
+    background-color: #010633;  
+    border-radius: 5px; 
+    cursor: pointer;
+}
+.equipe{
+    padding: 10px 20px;
+    border: 2px solid #010633; 
+    background-color: #010633;  
+    border-radius: 5px; 
+    cursor: pointer;
+}
+
+.img-container{
+    justify-items: center;
+}
+.img-content{
+    justify-items: center;
+    display: flex;
+    justify-content: center;
+}
+.img-centro{
+    width: 570px;
+    height: auto;
+    display:flex;
+    padding: 110px;
+    justify-content: center;
+    border-radius: 170px;
+}
+
+
+.redes-sociais{
+    display: flex;
+    justify-content: center;
+}
+
+
+
+.conteiner-rodape{
+   display: inline-flex;
+     justify-items: center;
+}
+
+.rodape{
+    background-color: aliceblue;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    
+}
+
+.logo-senai{
+ width: 10%;
+ display: flex;
+
+}
+
+.logoll{
+ width: 5%;
+ height: 5%;
+ border-radius: 188%;
+
+}
+.logo-emides{
+    width: 5%;
+    height: 5%;
+}
+
+.facebook{
+    width: 190px;
+    height: 100px;
+   
+}
+.instagram{
+    width: 190px;
+    height: 100px;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #010633;
+}
+
+/* Conteúdo principal */
+.conteudo-principal {
+    text-align: center;
+    padding: 40px 20px;
+}
+
+.conteudo-principal h1 {
+    color: #f0f1f3;
+    font-size: 36px;
+    margin-bottom: 12px;
+    margin-top: 10px;
+}
+
+.conteudo-principal h2 {
+    color: #34a2fc;
+    font-size: 20px;
+    margin-bottom: 80px;
+}
+
+/* Container das caixas */
+.container-caixas {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 70px;
+}
+
+/* Estilo da única caixa central */
+.caixa {
+    background-color: white;
+    border: 3px solid #007BFF;
+    width: 800px;
+    height: 300px;
+    border-radius: 12px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 130px;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+    transition: transform 0.3s, box-shadow 0.3s;
+    text-decoration: none;
+    color: #010633;
+}
+
+/* Nome dentro da caixa */
+ h3 {
+    color: #0a131f;
+    font-size: 25px;
+    text-align: center;
+    padding: 10px;
+}
+
+/* Efeito hover */
+.caixa:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 16px rgba(170, 9, 9, 0.2);
+    cursor: pointer;
+}
+
+.caixa a {
+    color: #34a2fc;  /* azul claro */
+    text-decoration: none; /* tirar sublinhado, se quiser */
+  }
+  
+  /* Para o hover do link na caixa */
+  .caixa a:hover {
+    color: #34a2fc; /* tom mais escuro para hover */
+    text-decoration: underline;
+  }
+
+
+
